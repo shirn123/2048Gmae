@@ -1,0 +1,30 @@
+  .topnav {
+    height: 40px;
+    background-color: #d6dce5;
+    overflow: hidden;
+   }
+  
+  .topnav a {
+    float: right;
+    color: black;
+    align-items: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .topnav b {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px 10px;
+    font-size: 10px;
+  }
+
+  .topnav a:hover {
+    background-color: #7c7c7c;
+    color: white;
+  }
+    
